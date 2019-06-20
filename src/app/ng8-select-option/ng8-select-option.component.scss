@@ -1,0 +1,26 @@
+.m-db-select-option{
+    background-color: #fff;
+    padding: 0 0 0 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    &:hover{
+      background-color: rgb(235, 235, 235);
+      transition: all 0.3s linear;
+      padding: 0 0 0 25px;
+    }
+  }
+  
+  .m-db-select-option-select{
+      background-color: rgb(235, 235, 235);
+      transition: all 0.3s linear;
+      padding: 0 0 0 25px;
+      height: 30px;
+      line-height: 30px;
+      text-align: left;
+      i{
+        padding-right:5px;
+      }
+  }

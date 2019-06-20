@@ -1,0 +1,12 @@
+<div class="m-db-select" #mdbselect>
+  <i class="iqon-xia"></i>
+  <!-- 文本框 -->
+  <input type="text" [placeholder]="placeholder" (click)="disabled?'':clickIsShowSelect($event)" readonly="readonly" unselectable="on" [(ngModel)]="viewSelectName" [disabled]="disabled" [ngClass]="{'m-disabled':disabled}">
+
+  <!-- 下拉框 -->
+  <div class="m-db-option" [ngClass]="{'showAnimation':isShowOption,'loseAnimation':!isShowOption}" [ngStyle]="{'top':isShowOptionUP?'-160px':optionList.length<3?'0':'-40px'}">
+    <ng-content></ng-content>
+  </div>
+
+</div>
+

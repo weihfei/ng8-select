@@ -1,0 +1,3 @@
+<div [ngClass]="{'m-db-select-option':!isShowSelectStatus, 'm-db-select-option-select':isShowSelectStatus}" (click)="getSelectValue(ngValue)">
+  <i class="iqon-right" *ngIf="isShowSelectStatus"></i><ng-content></ng-content>
+</div>

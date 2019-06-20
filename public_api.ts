@@ -1,0 +1,1 @@
+export * from './src/app/ng8-select/ng8-select.module';

@@ -1,0 +1,12 @@
+<p>
+  demo works!
+</p>
+
+<div style="width: 50%">
+  <ng8-select placeholder='-请选择内容' selectValueAndName='01' [optionList]="testArray" [(ngModel)]="tempSelectValue" name="testSelect" required>
+    <ng8-select-option *ngFor="let item of testArray;index as i" [ngValue]="item.value" name="testSelect">{{item.name}}</ng8-select-option>
+  </ng8-select>
+</div>
+
+
+
